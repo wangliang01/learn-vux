@@ -4,6 +4,8 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 
+import {alertPlugin, ToastPlugin} from 'vux'
+Vue.use(alertPlugin,ToastPlugin)
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */
